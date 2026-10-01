@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h2 { 
+    font-size: 20px; 
+}
+
+.card-title { 
+    font-size: 16px; 
+}
+
+.card-text, li {
+    font-size: 14px; 
+}
+
+.card-body {
+    padding: 12px; 
+}
+
+footer p { 
+    font-size: 12px; 
+}
+
+.hide-mobile { 
+    display: none; 
+}
+
+@media (min-width: 768px) {
+  h2 { font-size: 26px; }
+  .card-title { font-size: 18px; }
+  .card-text, li { font-size: 16px; }
+  .card-body { padding: 16px; }
+  footer p { font-size: 14px; }
+
+  .hide-mobile { display: inline; }
+}
+
+@media (min-width: 992px) {
+  h2 { font-size: 34px; }
+  .card-title { font-size: 22px; }
+  .card-text, li { font-size: 18px; }
+  .card-body { padding: 24px; }
+  footer p { font-size: 16px; }
+}
