@@ -33,4 +33,5 @@ In this task, I created a responsive portfolio page using both Media Queries and
 
 
 Summary:
+
 In this assignment, I learned how to create responsive web pages that work properly on mobile, tablet, and desktop screens. I learned how to use CSS Media Queries to change font sizes, layouts, spacing, and element visibility depending on the screen size. I also learned how to use the Bootstrap 12-column Grid System to create flexible and responsive layouts. In addition, I practiced creating a responsive Bootstrap navigation bar with a hamburger menu for smaller screens. Finally, I combined Media Queries and Bootstrap Grid to create a complete responsive portfolio page with a navbar, project cards, a personal information sidebar, and a footer. Overall, I improved my understanding of responsive web design and how to make websites clean and usable on different screen sizes.
